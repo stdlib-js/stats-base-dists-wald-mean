@@ -67,7 +67,7 @@ The [expected value][mean] for a [Wald][wald-distribution] random variable with 
 ## Usage
 
 ```javascript
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-wald-mean@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-wald-mean@v0.1.1-deno/mod.js';
 ```
 
 #### mean( mu, lambda )
@@ -132,7 +132,7 @@ y = mean( -1.0, 0.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-wald-mean@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-wald-mean@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
